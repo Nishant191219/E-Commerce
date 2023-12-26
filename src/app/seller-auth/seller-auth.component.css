@@ -1,0 +1,36 @@
+.seller-auth {
+    margin: 80px 0 50px 0;
+}
+.common-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+.form-input,.form-button {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    height: 35px;
+}
+.heading-1 {
+    text-align: center;
+}
+.toggle-link {
+    color: blueviolet;
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.text {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+@media only screen and (max-width: 437px) {
+    .common-form {
+      width: auto;
+    }
+ }

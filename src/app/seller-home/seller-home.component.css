@@ -1,0 +1,17 @@
+table {
+    text-align: left;
+    border-collapse: collapse;
+}
+th, td{
+    color:blueviolet;
+    border: 1px solid blueviolet;
+    padding: 10px;
+}
+.text{
+    color:red;
+    text-align:left;
+}
+img{
+    width: 100px;
+    height: 100px;
+}

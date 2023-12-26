@@ -1,0 +1,25 @@
+<!-- <div class="row">
+    <div>
+        <img src="https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg">
+    </div>
+    <div class="search-body">
+        <h1><b>Product Name</b></h1>
+        <p>Color:red</p>
+        <p>Price:10000</p>
+    </div>
+</div> -->
+<!-- pass data dynamically -->
+<div class="search-product" *ngFor="let item of searchResult">
+    <div>
+        <!-- <img src="{{item.image}}"> -->
+        <a routerLink="/details/{{item.id}}">
+            <img src="{{item.image}}">
+        </a>
+    </div>
+    <div class="search-body">
+        <a routerLink="/details/{{item.id}}"><h1 class="heading-1">Name:{{item.name}}</h1></a>
+        <h1 class="heading-1"><b>Color:{{item.color}}</b></h1>
+        <p><b>Price :</b>{{item.price}}</p>
+        <p><b>Description :</b>:{{item.description}}</p>
+    </div>
+</div>

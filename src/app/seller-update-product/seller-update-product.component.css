@@ -1,0 +1,21 @@
+
+.common-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+.form-input,.form-button {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    height: 35px;
+}
+.heading-1 {
+    text-align: center;
+}
+.text {
+    color: green;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+
+.user-auth {
+    margin: 80px 0 50px 0;
+}
+.common-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+.form-input,.form-button {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    height: 35px;
+}
+.heading-1 {
+    text-align: center;
+}
+.toggle-link {
+    color: blueviolet;
+    margin-top: 15px;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+}
+button:disabled{
+    cursor: not-allowed;
+}
+.invalid-message {
+    color: red;
+}
+.text {
+    color:red;
+    text-align: center;
+}
+.user-paragraph {
+    text-align: center;
+}
+@media only screen and (max-width: 437px) {
+    .common-form {
+      width: auto;
+    }
+ }

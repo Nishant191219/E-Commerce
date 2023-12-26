@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: sans-serif;
+}
+.container {
+    margin: 0 5%;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: black !important;
+    border: 5px !important;
+}
+@media only screen and (max-width: 767px) {
+    .container {
+      margin: 0;
+    }
+    .carousel-caption {
+        width: 100% !important;
+        right: 0 !important;
+        left: 0 !important;
+        padding: 0 !important;
+    }
+ }
